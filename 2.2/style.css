@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.box {
+    background: #5c10b8;
+    width: 900px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 100% 150% 30% 30%;
+    position: relative;
+}
+
+.box-item {
+    color: white;
+    background: #000;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: 150px;
+    position: relative;
+    
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 30px;
+    font-size: 1em;
+}
+
+.baloon {
+    animation-name: weal;
+    animation-iteration-count: infinite;
+    animation-duration: 0.15s;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-item:nth-child(1) {
+    position: absolute;
+    bottom: -90px;
+    right: 100px;
+}
+
+
+.box-item:nth-child(2) {
+    position: absolute;
+    bottom: -90px;
+    left: 100px;
+}
+
+.box-top {
+    position: absolute;
+    width: 55%;
+    background: #000;
+    height: 100px;
+    border-radius: 200px 200% 0 0;
+    top: -80px;
+    transform: rotate(2.0deg);
+}
+
+
+.fara-right {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    background: red;
+    width: 100px;
+    height: 30px;
+    border-radius: 100%;
+    transform: rotate(30deg);
+}
+
+.fara-left {
+    position: absolute;
+    left: 0;
+    top: 70px;
+    background: red;
+    width: 80px;
+    height: 30px;
+    border-radius: 10% 50% 50% 10%;
+    transform: rotate(-0deg);
+}
+
+
+@keyframes weal {
+    from {
+        transform: rotate(0);
+    } to {
+        transform: rotate(180deg);
+    }
+}

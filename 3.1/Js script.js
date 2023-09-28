@@ -1,0 +1,1 @@
+let menu = prompt("1.rdmi: 2$000 \n 2 aypat 1$000 \n 3 vituz18&00 \n 4 kasaner12$00 ")

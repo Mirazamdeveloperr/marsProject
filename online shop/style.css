@@ -1,0 +1,116 @@
+header nav ul li a {
+  text-transform: uppercase;
+}
+
+.showcase h1 {
+  max-width: 474px;
+  font-size: 96px;
+  font-weight: 900;
+}
+
+.showcase p {
+  font-size: 36px;
+}
+
+.showcase .right img {
+  position: absolute;
+  bottom: 0;
+  height: 70%;
+  right: 8%;
+  max-width: 871px;
+  max-height: 784px;
+}
+
+.btn-w {
+  max-width: 221px;
+  border-radius: 30px;
+}
+
+.bg-yellow {
+  background: #ebd96b;
+  width: 495px;
+  height: 117px;
+  position: absolute;
+  transform: rotate(-3deg);
+  top: 50%;
+  left: 8%;
+}
+
+.card-item {
+  width: 33% !important;
+}
+
+.card-item img {
+  width: 100%;
+}
+
+.model-content {
+  max-width: 404px;
+}
+
+.model-content img {
+  top: 20px;
+  right: 90px;
+}
+
+.girl-banner {
+  background: #e0c340;
+}
+
+.right .girl-banner-header h1 {
+  font-size: 112px;
+  max-width: 593px;
+}
+
+.girl-banner > div {
+  gap: 63px;
+}
+
+.girl-banner-block {
+  position: absolute;
+  top: 10px;
+  left: -14px;
+
+  width: 100%;
+  max-width: 493px;
+  height: 120px;
+  background: #fff;
+  transform: rotate(-2deg);
+}
+
+.p {
+  width: 428;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 36.04px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 52.316px; /* 145.161% */
+  letter-spacing: 0.721px;
+}
+.heading-block{
+    position: absolute;
+    max-width: 511px;
+}
+.heading-block h1{
+    font-weight: 900;
+    font-size: 48px;
+    letter-spacing: 6%;
+}
+.heading-block img{
+    position: absolute;
+    top: 30px;
+    right: 90px;
+    z-index: -1;
+}
+.favorite{
+    margin: 190px 0 220px;
+}
+.favorite .cards-wrapper .card-item{
+    width: 50% !important;
+}

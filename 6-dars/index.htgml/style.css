@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background: violet;
+    color: white;
+}
+
+
+header {
+    background:darkmagenta;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    padding: 30px 0;
+}
+
+.portfolio {
+display: flex;
+align-items: flex;
+gap: 120px;
+padding: 100px 120;
+}
+
+.portfolio h1 {
+    font-size: 72px;
+    f
+    
+}

@@ -1,0 +1,132 @@
+body{
+    background-color: white;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 45px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header nav {
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px ;
+    font-weight: 500;
+    display: flex;
+    gap: 60px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+  
+}
+.active{
+    color: rgba(243, 95,47,1)  ;
+}
+.header-button button{
+    background-color: rgba(243, 95,47,1) ;
+    color: white;
+    font-family: sans-serif;
+    padding: 12px 24px;
+    border: transparent;
+    border-radius: 5px;
+}
+.showcase{
+    display: flex;
+}
+.showcase .left h1 {
+    color: #3D3D3F;
+    font-size: 72px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.showcase .left p {
+    color: #3D3D3F;
+    font-size: 20px;
+    font-family: sans-serif;
+    max-width: 536px;
+    padding: 60px 0;
+}
+.showcase .left .lbutton {
+    border-radius: 5px;
+    background: var(--gd-color, linear-gradient(0deg, #F35F2F 0%, rgba(243, 95, 47, 0.75) 100%));
+    width: 219px;
+    height: 53px;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Rubik;
+    font-weight: 400;
+}
+.right img {
+    width: 100%;
+    
+}
+.right{
+    width: 45%;
+}
+.about-title{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #3D3D3F;
+    text-align: center;
+    margin: 120px 0 80px;
+}
+
+.projets .about-card {
+    width: 30.3% !important;
+}
+.projets {
+    gap: 3% !important;
+}
+.about-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.about-card-title {
+    color: #3D3D3F;
+    font-size: 36px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+.about-card-description {
+    font-size: 24px;
+    color: #626263;
+}
+.XLbutton {
+    width: 242px;
+    height: 53px;
+    border-radius: 5px;
+    background: #F35F2F;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+}
+
+.projets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+
+ .img
+
+
+
+
+

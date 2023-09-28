@@ -1,0 +1,29 @@
+
+/* Global option */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.karobka {
+    /* fon */
+    background: #000;
+    /* eniga razmer */
+    width: 40%;
+    /* boyiga razmer */
+    height: 500px;
+    /* bita liniyaga taxlash */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.telefon {
+    background: rgb(211, 24, 24);
+    /* ramka */
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+
